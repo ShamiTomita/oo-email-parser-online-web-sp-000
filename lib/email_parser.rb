@@ -12,7 +12,7 @@ class EmailAddressParser
   end 
   
   def self.parse(email)
-    @@array << email 
+    @@array << @email 
   end 
   
   
