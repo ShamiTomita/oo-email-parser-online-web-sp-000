@@ -8,11 +8,11 @@ class EmailAddressParser
   
   def initialize(email)
     email = self
-    @@array << email
+    parse 
   end 
   
-  def self.parse(email)
-    
+  def self.parse
+    @@array << self 
   end 
   
   
