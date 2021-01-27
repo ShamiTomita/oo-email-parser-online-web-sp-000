@@ -11,8 +11,8 @@ class EmailAddressParser
     parse 
   end 
   
-  def self.parse
-    @@array << self 
+  def self.parse(email)
+    @@array << email 
   end 
   
   
