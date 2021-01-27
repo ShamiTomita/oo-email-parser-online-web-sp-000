@@ -5,13 +5,8 @@
 class EmailAddressParser
   attr_accessor :email
   @@array = []
-  
-  def initialize(email)
-    parse 
-  end 
-  
-  def self.parse(email)
-    @@array << self 
+
+  def parse(email)
   end 
   
   
