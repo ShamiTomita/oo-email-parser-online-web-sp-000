@@ -7,7 +7,7 @@ class EmailAddressParser
   @@array = []
   
   def initialize(email)
-    @email = self
+    email = self
     @@array << email
   end 
   
